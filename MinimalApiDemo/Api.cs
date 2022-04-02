@@ -11,6 +11,7 @@ public static class Api
         app.MapDelete("/Users", DeleteUser);
     }
 
+
     private static async Task<IResult> GetUsers(IUserData data)
     {
         try
